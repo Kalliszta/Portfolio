@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Portfolio </title>
+<link rel="icon" href="./Assets/Images/favicon.png">
+<style type = "text/css">
+
+<!-- BASIC CODE SAME FOR EACH PAGE -->
+@font-face {
+	font-family: Comfortaa;
+	src: url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap);
+}
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 16px;
+	color: black;
+	font-family: Comfortaa;
+	font-weight: 300;
+	background-image: url(./Assets/Images/bannerdark.png);
+	background-size: cover;
+	text-align: justify;
+	height: auto;
+	word-break: break-all;
+	overflow: auto;
+	hyphens: auto;
+	display: block;
+}
+
+h2 {
+	font-size: 28px;
+	background-color: #333333;
+	padding: 16px;
+	padding-left: 40px;
+	color: white;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 600;
+	text-decoration: underline;
+	padding-top: 3.5%;
+	padding-bottom: 0.5px;
+}
+
+h4{
+	padding-top: 2%;
+}
+
+p {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.topnav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	background-color: #212121;
+	min-width: 100%;
+	color: white;
+	font-size: 24px;
+	z-index: 10;
+}
+
+.topnavItem {
+	float: left;
+	text-align: center;
+}
+
+.topnavItem p{
+	float: left;
+	display: block;
+	text-decoration: none;
+	padding: 8px;
+	padding-right: 20px;
+	text-align: center;
+	color: inherit
+}
+
+.topnavItem a{
+	float: left;
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	text-align: center;
+	color: inherit
+}
+
+.topnavItem a:hover {
+	background-color: #4d4d4d;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	width: 100%;
+	background-color: black;
+}
+
+.main-container {
+	position: relative;
+
+	width: 94%;
+	min-height: 80%;	
+
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 7%;
+	margin-bottom: 3%;
+	
+	background-color: #E0E0E0;
+	
+
+}
+
+.text-container {
+	left: 0%;
+	top: 0%;
+	
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	
+	
+	font-size: 16px;
+	color: black;
+	line-height: 1.4;
+
+}
+
+.text-container li{
+	list-style-type: square;
+	margin-left: 25px;
+}
+
+
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+.column2 {
+	float: left;
+	width: 45%;
+	padding: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.column2 p{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.column3 {
+	float: left;
+	width: 33.33%;
+}
+
+.column3 img{
+	width: 100%
+}
+
+.column3DoubleL {
+	float: left;
+	width: 63.33%;
+	padding-right: 3%;
+	transform: translate(0%, 25%);
+}
+
+.column3DoubleR {
+	float: right;
+	width:63.33%;
+	padding-left: 3%;
+	transform: translate(0%, 25%);
+}
+
+
+#indexnav {
+	font-size: 20px;
+}
+
+
+#animation {
+}
+
+#comicbook {
+
+}
+
+</style>	
+</head>
+
+<body>
+
+<!-- BASIC CODE SAME FOR EACH PAGE -->
+	
+	<ol class="topnav">
+		<li class="topnavItem"><img src="./Assets/Images/favicon.png" alt="Logo" style="width:60px;height:auto;padding-left:10px;"></li>
+		<li class="topnavItem"><p style="font-size:30px;font-weight:700;color:#B582CB;font-family:Segoe Script;"> Portfolio </p></li>
+		<li class="topnavItem"><a href="./home.html"> Home </a></li>
+		<li class="topnavItem"><a href="./art.html"> Art </a></li>
+		<li class="topnavItem"><a href="./cdt.html"> CDT </a>
+		<li class="topnavItem"><a href="./computerscience.html"> Computer Science </a></li>
+		<li class="topnavItem"><a href="./contact.html"> Contact </a></li>
+	</ol>
+	
+	
+	<div class="main-container">
+		<div id="indexnav">
+			<h2><b> CDT Projects </b></h2>
+			<div class="text-container">
+				<ol>
+					<li><a href="#animation"> Animation </a></li>
+					<li><a href="#comicbook"> Comic Book </a></li>
+					<li><a> Game Design </a></li>	
+					<li><a> Logo </a></li>
+				</ol>
+			</div>
+		</div>
+		
+		<div id="animation">
+			<h2><b> Animation </b></h2>
+			<div class="text-container">
+			<h3> Documents </h3>
+			<div class="row">
+				<div class="column2">
+					<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQM6Qk5V_-q5caOrPuBFqRdVk3Lttl5NtD6BdKP4H_LHW12zT5yZtIZX5igkQMM1EMT5cvOXukJ1RAu/embed?start=false&loop=true&delayms=30000" frameborder="0" style="width:100%;height:300px;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+				</div>
+				<div class="column2">
+					<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSLhQC7aI8QAP4M4aDk8XvUie8L1pKa6efYEcdYEREj1H9qU7lwok4APqLSPu7_U2-eT8hr8yiwmnXt/embed?start=false&loop=true&delayms=30000" frameborder="0" style="width:100%;height:300px;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column2">
+					<p> When producing the Design Document I learnt how to plan/draft an entire short animation. E.g. firstly, based on the requirements in the client brief mood boards for both the characters and environments must be created. Using the mood boards, characters and environments can be drafted and developed. When creating the Design Document I also learnt that its important to fully plan out the storyline/narrative using a storyboard as it allows you to picture what the animation will be like and roughly how long each scene must be. </p>
+				</div>
+				<div class="column2">
+					<p> When producing the Production Document I learnt that feedback from the target audience is important as it allows you to determine whether the product you have created for them is successful based on their feedback. In addition to that, I also learnt how easily I could apply post production techniques on the video using the "Video Editor" within Blender. </p>
+				</div>
+			</div>
+
+				<h3> The Client Brief and Requirements </h3>
+				<br>
+				<p> E4, the ‘youth’ orientated digital TV channel is well known for it’s boundary pushing content but has also become synonymous with its quirky and comedic marketing promotions. Films being introduced are often gently mocked, and the fact that E4 habitually repeats programmes is commonly referred to in idents. The most famous line of the idents is "Coming to you, straight into your telly box”. The "E" stands for entertainment, and the channel is mainly aimed at the 16–34 age group.</p>
+				
+				<ol><h4> WHAT WE WANT YOU TO DO: </h4>
+					<p>
+					<li> Create a fully animated 30 second ident for delivery on television and online for E4 that ‘sells’ the quirkiness and fun of the brand while also celebrating the diversity of British society or the core British values. </li>
+					</p>
+				</ol>
+				
+				<ol><h4> WHAT THE IDENT MUST INCLUDE: </h4>
+					<p>
+					<li> A clear genre pastiche </li>
+					<li> An original 3D character with clear personality traits </li>
+					<li> Static props </li>
+					<li> Interactive prop </li>
+					<li> A 3D character who interacts with the prop </li>
+					<li> A 3D environment that the character interacts with </li>
+					</p>
+				</ol>
+				
+				<ol><h4> STYLE PREFERENCES: </h4>
+					<p>
+					<li> The style should adhere to current popular trends in animation. </li>
+					<li> The Pixar / Disney 3D CGI aesthetic is losing its appeal in 2018/19 as the once emerging technology has become more accessible and bland. A sea change in style is likely to come from independents. Current trends include simplified iconography, 3D Low poly, hand crafted, retro, dynamic typography </li>
+					</p>
+				</ol>
+				
+				
+				<h3 style="padding-bottom:3px"> Final Character Models </h3>
+				<div class="row">
+					<div class="column3">
+						<img src="./Assets/Images/CDT/mouse1.png" alt="full view of mouse when rendered">
+						<img src="./Assets/Images/CDT/mouse2.png" alt="full view of mouse in wireframe">
+					</div>
+					<div class="column3DoubleR">
+						<p>Using Blender (a 3D modelling/animation software) I created Molly the computer mouse (who is shown in the image on the left). The brief I was given for this project required me to create an E4 ident with a comedy genre. In order to make it clear to the audience that the ident has a comedy genre I made the protagonist (Molly) comedic by making them a literal computer mouse that the audience would find comedic. When creating Molly (the computer mouse) I learnt use to a variety of new features which in the future I can use when modelling other things within Blender.  For example, I learnt how to use the "Texture Paint" feature.</p>
+					</div>
+				</div>
+
+				<h3> Videos </h3>
+				<h4> E4 Ident (30s animation) </h4>
+				<h4> E4 Ident (flythrough/idle) </h4>
+				<h4> Short Animations (demonstrating techniques) </h4>
+
+			</div>
+		</div>
+		
+		<div id="comicbook">
+		</div>
+	</div>
+
+</body>
+</html>
+
